@@ -1,0 +1,74 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Khula', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.franchise-intro {
+  height: 700px;
+  background-color: #f7f4f4;
+}
+
+.information {
+    background: url('https://s-media-cache-ak0.pinimg.com/736x/f1/fd/d6/f1fdd63a3671503a607e65fd3b7dbd0e.jpg') no-repeat;
+    height:700px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.form-group {
+    margin-right: 200px;
+}
+
+.col-xs-4 {
+    padding-left: 0;
+}
+
+.footer {
+    padding-top: 20px;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.contactus {
+    background: url('https://p-handy.hbfiles.com/assets/header-images/about-header-4689b266a784d30722668e454e598649.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 150px;
+  text-align: center;
+}
+
+.contactinformation {
+    height: 300px;
+    background-color: #f7f4f4;
+    text-align: center;
+}
+
+.clients {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+
+@media(max-width:800px) {
+    .form-group{
+        margin-right: 30px;
+    }
+
+
+
+
+
+

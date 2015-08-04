@@ -1,0 +1,88 @@
+/*** navbar ***/
+
+.navbar-custom {
+    margin-bottom: 0;
+    font-family: 'Khula', sans-serif;
+    background-color: #fff;
+}
+
+
+.navbar-custom .navbar-brand {
+    font-weight: 500;
+    font-size: 36px;
+
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-brand {
+    height: 75px;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 1px 2px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #484A45;
+    font-size: 18px;
+}
+
+.nav>li>a {
+position: relative;
+display: block;
+padding-right: 50px;
+text-align: center;
+}
+
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: #f7f7f7;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        letter-spacing: 1px;
+        background: #fff; 
+    }
+
+    .top-nav-collapse {
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 10px;
+
+    }
+}
+
+
+
