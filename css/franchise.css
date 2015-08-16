@@ -63,8 +63,26 @@ html {
 
 
 @media(max-width:800px) {
-    .form-group{
-        margin-right: 30px;
+    .information {
+      display: none;
+    }
+
+    .form-group {
+      margin-right: 0px;
+      margin-left: -60px;
+    }
+
+    .footer {
+      display: none;
+    }
+
+    .information h1 {
+      margin-left: -60px;
+    }
+
+    .franchise-intro {
+      height: 800px;
+    }
     }
 
 
