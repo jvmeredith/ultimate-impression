@@ -178,6 +178,18 @@ html {
   line-height: 1;  
 }
 
+.tampa {
+  text-align: center;
+  padding-top: 50px;
+  display: block;
+  background-color: #EEEEEE;
+  background: url(https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_448,q_75,w_500/v1/clients/tampabay/unlock3_2dbdcea8-bd29-44ba-a64a-a2fc5d7dda3f.jpg) center;
+  height: 300px;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1;  
+}
+
 .franchise {
   text-align: center;
   padding-top: 50px;
